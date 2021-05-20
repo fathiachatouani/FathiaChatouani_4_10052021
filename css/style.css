@@ -704,6 +704,8 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: space-around;
 }
 
 h2 {
@@ -780,7 +782,7 @@ h4 {
 
 .tc-white {
     color: #F3976C!important;
-    font-size: 30px;
+    font-size: 27px;
 }
 
 .btn-atomic-tangerine {
@@ -824,7 +826,6 @@ h4 {
 
 .bg-presentation {
     background-image: url("../img/image-de-presentation.jpg");
-    /* height: 600px; */
 }
 
 
@@ -842,7 +843,7 @@ h4 {
 .descriptif2{
     font-size: 25px;
 }
-blockquote{
+/* blockquote{
     border-left: none;
 }
 blockquote:before,
@@ -864,7 +865,7 @@ blockquote:after {
 	content: '”';
 	right: -6rem;
     bottom: 6rem;
-}
+} */
 
 figcaption{
     font-size: 18px;
@@ -883,6 +884,10 @@ figcaption{
     color: #fff !important;
 }
 
+.fa-chevron-up{
+    font-size: 15px !important;
+}
+
 .annuaires{
     margin-top: 50px;
 }
@@ -895,6 +900,21 @@ footer li:first-child{
     margin-top: 30px;
 }
 
+.journaux-img{
+    width: 100%;
+}
+
+.photo-img{
+    width: 100%;
+}
+
+.access-photo{
+    width: 100%;
+}
+
+.coin-bureau{
+    width: 100%;
+}
 
 
 @media (max-width: 1024px) {

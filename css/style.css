@@ -832,6 +832,11 @@ h4 {
 
 
 /* PERSO */
+/* .descriptif-agence{
+padding-right: 0px;
+padding-left: 0px;
+} */
+
 .descriptif{
     font-size: 25px;
     margin-bottom: 50px;
@@ -883,6 +888,20 @@ footer li:first-child{
     color: #212121!important;
 }
 
+/* .footer-ind{
+    margin-right: 0px!important;
+}
+
+.citation{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.client{
+    margin-right: 0px;
+    margin-left: 0px;
+} */
+
 .journaux-img{
     width: 100%;
 }
@@ -904,6 +923,15 @@ footer li:first-child{
     padding-top: 15px;
     padding-bottom: 18px
 }
+
+/* .footer-cont{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.fin-cont{
+    margin-right: 0px;
+} */
 
 
 @media (max-width: 1024px) {

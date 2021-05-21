@@ -999,6 +999,11 @@ footer li:first-child{
 }
 
 @media (max-width: 767px) {
+
+    .is-hidden-mobile {
+        display: none;
+    }
+
     .page-container {
         overflow-x: hidden;
         position: relative;

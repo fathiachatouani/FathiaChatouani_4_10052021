@@ -740,7 +740,7 @@ h4 {
 }
 
 .white {
-    color: #212121!important;
+    color: #fff!important;
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 53px;
@@ -842,34 +842,12 @@ h4 {
 }
 
 .descriptif2{
-    font-size: 25px;
+    font-size: 22px;
 }
-/* blockquote{
-    border-left: none;
-}
-blockquote:before,
-blockquote:after {
-	position: absolute;
-	color: #f1efe6;
-	font-size: 8rem;
-	width: 15rem;
-	height: 4rem;
-}
-
-blockquote:before {
-	content: '“';
-	left: -5rem;
-	top: -1rem;
-}
-
-blockquote:after {
-	content: '”';
-	right: -6rem;
-    bottom: 6rem;
-} */
 
 figcaption{
     font-size: 18px;
+    font-weight: 700;
 }
 
 .client{
@@ -901,6 +879,10 @@ footer li:first-child{
     margin-top: 30px;
 }
 
+.titre-footer{
+    color: #212121!important
+}
+
 .journaux-img{
     width: 100%;
 }
@@ -915,6 +897,12 @@ footer li:first-child{
 
 .coin-bureau{
     width: 100%;
+}
+
+.intro-contact{
+    background-color: #454545;
+    padding-top: 15px;
+    padding-bottom: 18px
 }
 
 

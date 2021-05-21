@@ -847,10 +847,36 @@ padding-left: 0px;
 }
 
 .descriptif2{
+    color: black !important;
     font-size: 22px;
 }
 
+blockquote{
+    border-left: none;
+}
+blockquote:before,
+blockquote:after {
+	position: absolute;
+	color: #f1efe6;
+	font-size: 8rem;
+	width: 15rem;
+	height: 4rem;
+}
+
+blockquote:before {
+	content: '“';
+	left: -3rem;
+	top: -1rem;
+}
+
+blockquote:after {
+	content: '”';
+	right: -3rem;
+    bottom: 6rem;
+}
+
 figcaption{
+    color: black !important;
     font-size: 18px;
     font-weight: 700;
 }

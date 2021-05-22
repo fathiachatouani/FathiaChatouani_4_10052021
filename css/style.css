@@ -1157,7 +1157,8 @@ footer li:first-child{
         margin-top: 30px;
     }
     form {
-        padding: 5px;
+        /* padding: 5px; */
+        padding: 5px 15px 5px 15px;
     }
     .close-lightbox {
         display: inline-block;

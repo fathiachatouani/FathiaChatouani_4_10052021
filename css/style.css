@@ -950,6 +950,12 @@ footer li:first-child{
     padding-bottom: 18px
 }
 
+.contact-bloc{
+    display: flex;
+    justify-content: center;
+}
+
+
 /* .footer-cont{
     margin-right: 0px;
     margin-left: 0px;

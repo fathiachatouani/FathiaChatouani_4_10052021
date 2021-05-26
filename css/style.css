@@ -1018,6 +1018,13 @@ button:focus {
 }
 
 @media (max-width: 767px) {
+    .bg-banniere {
+        background-image: url("../img/la-chouette-agence-banniere-mobile.jpg");
+    }
+
+    .bg-presentation {
+        background-image: url("../img/image-de-presentation-mobile.jpg");
+    }
 
     .is-hidden-mobile {
         display: none;

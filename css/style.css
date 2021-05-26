@@ -944,6 +944,17 @@ footer li:first-child{
     width: 100%;
 }
 
+input:focus,
+textarea:focus {
+    background: #F3976C;
+    color:#000;
+    font-weight: 700;
+}
+
+button:focus {
+    outline: dashed !important;
+}
+
 .intro-contact{
     background-color: #454545;
     padding-top: 15px;
